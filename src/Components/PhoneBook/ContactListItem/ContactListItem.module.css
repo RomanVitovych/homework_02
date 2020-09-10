@@ -1,0 +1,33 @@
+.contactItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 10px;
+    border: 1px solid gray;
+    margin: 0 0 10px 10px;
+    transition: all 0.2s linear;
+}
+
+.contactItem:hover {
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.5);
+}
+
+.contactName {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.contactName::before {
+    content: "\260E";
+    padding: 0 20px;
+}
+
+.deleteBtn {
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px;
+    margin-right: 10px;
+}
+

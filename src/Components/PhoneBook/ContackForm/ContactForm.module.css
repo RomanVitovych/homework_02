@@ -1,0 +1,48 @@
+.mainHeader {
+    width: 480px;
+}
+
+.bookForm {
+    border: 2px solid black;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.bookName {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 20px 0 30px 10px;
+    padding: 0;
+}
+
+.inputStyles {
+    font-size: 18px;
+    font-weight: 400;
+    border: 1px solid gray;    
+    margin: 20px 0 20px 10px;
+    padding: 5px;
+}
+
+.bookInputName {
+    composes: inputStyles;
+}
+
+.bookInputNumber {
+    composes: inputStyles;
+}
+
+.bookInputName:focus,
+.bookInputNumber:focus,
+.bookInputName:hover
+.bookInputNumber:hover {
+    box-shadow: 0px 0px 5px 5px rgba(0,191,255,0.55);
+}
+
+.bookBtn {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0 20px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
